@@ -43,6 +43,7 @@ npm install --save-dev eslint-config-aurora
 **Edit `package.json`**:
 ```
 {
+  //...
   "eslintConfig": {
     "extends": "aurora"
   }
