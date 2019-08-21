@@ -1,10 +1,6 @@
 module.exports = {
   extends: 'standard',
   rules: {
-    'comma-dangle': [
-      'warn',
-      'always-multiline'
-    ],
     'space-before-function-paren': [
       'error',
       {
@@ -12,6 +8,10 @@ module.exports = {
         'named': 'never',
         'asyncArrow': 'always'
       }
-    ]
+    ],
+    'comma-dangle': [
+      'warn',
+      'always-multiline'
+    ],
   }
 }
