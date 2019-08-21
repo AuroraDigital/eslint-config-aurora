@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-aurora",
   "version": "1.0.0",
-  "description": "An ESLint shareable config created with readability in mind.",
+  "description": "A shareable ESLint config created with readability in mind.",
   "keywords": [
     "eslint",
     "lint",
