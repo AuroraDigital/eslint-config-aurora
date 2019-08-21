@@ -5,13 +5,13 @@
   "keywords": [
     "eslint",
     "eslintconfig",
+    "standard",
     "lint",
     "es6",
     "es2017",
     "es2018",
     "code quality",
     "style guide",
-    "code style",
     "auroradigital"
   ],
   "homepage": "https://github.com/AuroraDigital/eslint-config-aurora/#readme",

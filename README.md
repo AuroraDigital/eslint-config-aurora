@@ -25,6 +25,6 @@ Changes the dangling comma rule to be a warning instead of an error and expect t
 
 ```
 var obj = {
-  message: 'hello', // ✓ ok now, previously signaled error
+  message: 'hello', // ✓ ok now, previously an error
 }
 ```
