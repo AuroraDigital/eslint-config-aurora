@@ -32,4 +32,4 @@ var obj = {
 
 ## ESLint + Prettier
 
-This rules of this ESLint config is designed to play nice with our shareable Prettier config: [@auroradigital/prettier-config](https://github.com/AuroraDigital/prettier-config).
+this ESLint config is designed to work alongside our shareable Prettier config: [@auroradigital/prettier-config](https://github.com/AuroraDigital/prettier-config).
