@@ -2,8 +2,12 @@
   "name": "eslint-config-aurora",
   "version": "1.0.0",
   "description": "A shareable ESLint config created with readability in mind.",
+  "peerDependencies": {
+    "eslint": ">= 3"
+  },
   "keywords": [
     "eslint",
+    "eslintconfig",
     "lint",
     "es6",
     "es2017",
@@ -17,5 +21,8 @@
   "bugs": "https://github.com/AuroraDigital/eslint-config-aurora/issues",
   "repository": "git@github.com:AuroraDigital/eslint-config-aurora.git",
   "author": "AURORA Digital <hello@auroradigit.al> (auroradigit.al)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "standardx": "^5.0.0"
+  }
 }
