@@ -2,9 +2,6 @@
   "name": "eslint-config-aurora",
   "version": "1.0.0",
   "description": "A shareable ESLint config created with readability in mind.",
-  "peerDependencies": {
-    "eslint": ">= 3"
-  },
   "keywords": [
     "eslint",
     "eslintconfig",
