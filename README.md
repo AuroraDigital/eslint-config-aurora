@@ -30,6 +30,25 @@ var obj = {
 ```
 
 
+## Usage
+**Install:**
+```
+yarn add --dev eslint-config-aurora
+```
+or
+```
+npm install --save-dev eslint-config-aurora
+```
+
+**Edit `package.json`**:
+```
+{
+  "eslintConfig": {
+    "extends": "aurora"
+  }
+}
+```
+
 ## ESLint + Prettier
 
 This ESLint config is designed to work alongside our shareable Prettier config: [@auroradigital/prettier-config](https://github.com/AuroraDigital/prettier-config).
