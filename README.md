@@ -15,6 +15,7 @@ Changes the function parenthesis spacing rule to disallow spaces for named funct
 function name(arg) { ... } // ✓ ok now, previously forced a space
 ```
 
+---------
 
 |   Rule   |    Old    |    New    |
 |----------|-----------|-----------|
