@@ -19,7 +19,7 @@ function name(arg) { ... } // ✓ ok now, previously forced a space
 
 |   Rule   |    Old    |    New    |   Why   |
 |----------|-----------|-----------|---------|
-|[comma-dangle](https://eslint.org/docs/rules/comma-dangle)|`['error', 'never']`|`['warn', 'multiline']`|   Trailing commas allow for quicker additions to lists from cold starts.
+|[comma-dangle](https://eslint.org/docs/rules/comma-dangle)|`['error', 'never']`|`['warn', 'always-multiline']`|   Trailing commas allow for quicker additions to lists from cold starts.
 
 Changes the dangling comma rule to be a warning instead of an error and expect them on the last element or property which is on a different line of comma separated values.
 
