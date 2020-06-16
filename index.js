@@ -4,14 +4,14 @@ module.exports = {
     'space-before-function-paren': [
       'error',
       {
-        'anonymous': 'always',
-        'named': 'never',
-        'asyncArrow': 'always'
-      }
+        anonymous: 'always',
+        named: 'never',
+        asyncArrow: 'always',
+      },
     ],
     'comma-dangle': [
       'warn',
-      'always-multiline'
+      'always-multiline',
     ],
-  }
+  },
 }

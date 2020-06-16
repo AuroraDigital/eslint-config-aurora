@@ -20,6 +20,21 @@
   "author": "AURORA Digital <hello@auroradigit.al> (auroradigit.al)",
   "license": "MIT",
   "dependencies": {
-    "standardx": "^5.0.0"
+    "eslint-config-standard": "^14.0.0"
+  },
+  "devDependencies": {
+    "eslint": ">=6",
+    "eslint-plugin-import": "*",
+    "eslint-plugin-node": "*",
+    "eslint-plugin-promise": "*",
+    "eslint-plugin-standard": "*"
+  },
+  "scripts": {
+    "test": "eslint --max-warnings 0 ."
+  },
+  "eslintConfig": {
+    "extends": [
+      "./"
+    ]
   }
 }
