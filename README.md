@@ -53,7 +53,7 @@ npm install --save-dev eslint-config-aurora standardx
 ### Flexible
 The more powerful way to get started, allows for [custom configurations][eslint-configuring].
 
-### Install:
+#### Install:
 ```
 yarn add --dev \
   eslint-config-aurora \
