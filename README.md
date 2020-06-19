@@ -31,80 +31,58 @@ var obj = {
 
 
 ## Usage
+### Simple
+The easiest way to get started, built upon [`standardx`][standardx]
 
-[Shareable configs][shareable] are designed to work with the `extends` feature
-of `.eslintrc.*` files, and this shareable config defines style rules intended
-to override some of the StandardJS rules.
+#### Install:
+```
+yarn add --dev eslint-config-aurora standardx
+```
+or
+```
+npm install --save-dev eslint-config-aurora standardx
+```
 
-The following describes simple ways to to install, configure, and use
-`eslint-config-aurora`. In the first case of each step, we use ESLint alone. In
-the second case, we use [`standardx`][standardx].
+#### Create or edit `eslintrc.json`:
+```
+{
+  "extends": "aurora"
+}
+```
+---
+### Flexible
+The more powerful way to get started, allows for [custom configurations][eslint-configuring].
 
-1. Install the following development dependencies with `yarn add --dev` or `npm
-   install --save-dev`:
+### Install:
+```
+yarn add --dev \
+  eslint-config-aurora \
+  eslint-config-standard \
+  eslint-plugin-import \
+  eslint-plugin-node \
+  eslint-plugin-promise \
+  eslint-plugin-standard
+```
+or
+```
+npm install --save-dev \
+  eslint-config-aurora \
+  eslint-config-standard \
+  eslint-plugin-import \
+  eslint-plugin-node \
+  eslint-plugin-promise \
+  eslint-plugin-standard
+```
 
-   * ESLint
-
-     ```
-     eslint-config-aurora \
-     eslint-config-standard \
-     eslint-plugin-import \
-     eslint-plugin-node \
-     eslint-plugin-promise \
-     eslint-plugin-standard
-     ```
-
-   * `standardx`
-
-     ```
-     eslint-config-aurora \
-     standardx
-     ```
-
-2. [Configure ESLint][eslint-configuring] to use `eslint-config-aurora`. Here is
-   an example `.eslintrc.json`:
-
-   * ESLint
-
-     ```
-     {
-       "extends": ["standard", "aurora"]
-     }
-     ```
-
-     Note: `"aurora"` must come _after_ `"standard"` in order to override the
-     rules of [`eslint-config-standard`][eslint-config-standard].
-
-   * `standardx`
-
-     ```
-     {
-       "extends": "aurora"
-     }
-     ```
-
-     Note: `standardx` uses [`eslint-config-standard`][eslint-config-standard]
-     as a base configuration, so this is automatically extending it.
-
-3. Update your `package.json` run script for testing:
-
-   * ESLint
-
-     ```json
-     "scripts": {
-       "test": "eslint ."
-     }
-     ```
-
-   * `standardx`
-
-     ```json
-     "scripts": {
-       "test": "standardx"
-     }
-     ```
-
-4. Test with `yarn test` or `npm test`.
+#### Create or edit `eslintrc.json`:
+```
+{
+  "extends": ["standard", "aurora"]
+}
+```
+Note: `"aurora"` must come _after_ `"standard"` in order to override the
+rules of [`eslint-config-standard`][eslint-config-standard].
+ 
 
 ## ESLint + Prettier
 
