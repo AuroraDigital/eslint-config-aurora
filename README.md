@@ -7,7 +7,7 @@ Standard JavaScript, but with opinionated changes.
 
 |   Rule   |    Old    |    New    |   Why   |
 |----------|-----------|-----------|---------|
-|[space-before-function-paren](https://eslint.org/docs/rules/space-before-function-paren)|`['error', 'always']`|`['error',{'anonymous': 'always', 'named': 'never', 'asyncArrow': 'always' }]`|  Spacing before named function parenthesis is just unusual.  |
+|[space-before-function-paren](https://eslint.org/docs/rules/space-before-function-paren)|`['error', 'always']`|`['error', {'anonymous': 'always', 'named': 'never', 'asyncArrow': 'always' }]`|  Spacing before named function parenthesis is just unusual.  |
 
 Changes the function parenthesis spacing rule to disallow spaces for named functions but continue to require them for anonymous and asyncArrow functions.
 
