@@ -32,7 +32,7 @@ var obj = {
 
 ## Usage
 ### Simple
-The easiest way to get started, built upon [`standardx`][standardx]
+The easiest way to get started, built upon [`standardx`][standardx].
 
 #### Install:
 ```
